@@ -9,7 +9,6 @@ fn main() {
             let timer4 = start_timer!(|| "test panic 4");
             let timer5 = start_timer!(|| "test panic 5");
             let timer6 = start_timer!(|| "test panic 6");
-            end_timer!(timer6);
             //Simulator do task and panic
             if true {
                 panic!();
@@ -19,6 +18,7 @@ fn main() {
             end_timer!(timer3);
             end_timer!(timer4);
             end_timer!(timer5);
+            end_timer!(timer6);
             
         });
 
