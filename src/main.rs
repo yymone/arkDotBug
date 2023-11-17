@@ -14,11 +14,11 @@ fn main() {
                 panic!();
             }
 
-            end_timer!(timer2);
-            end_timer!(timer3);
-            end_timer!(timer4);
-            end_timer!(timer5);
             end_timer!(timer6);
+            end_timer!(timer5);
+            end_timer!(timer4);
+            end_timer!(timer3);
+            end_timer!(timer2);
             
         });
 
